@@ -306,6 +306,11 @@ h1, h2, h3, h4, h5,
   display: block;
 }
 
+.dropdown{
+  position: relative;
+  display: block;
+}
+
   .site-navbar .site-navigation.border-bottom {
     border-bottom: 1px solid #f3f3f4 !important; }
   .site-navbar .site-navigation .site-menu {
@@ -1778,7 +1783,7 @@ h1, h2, h3, h4, h5,
 .section-title {
   color: #000;
   font-size: 40px;
-  font-weight: 900; }
+  font-weight: 500; }
   @media (max-width: 991.98px) {
     .section-title {
       font-size: 30px; } }
@@ -1858,7 +1863,37 @@ h1, h2, h3, h4, h5,
       border-radius: 10px;
       font: 400 11px/20px arial;
 }
+.Node
+{
+  text-align: center; 
+  font-style: italic ;
+}
+p{
+  font-weight: 500; 
+}
+.most-img{
+  width:100%;
+}
 
+.sign-in{
+  list-style-type: none !important;
+}
+
+.contain-sign-in-up{
+  width: 90%
+}
+
+.sign-in-up{
+  display: inline;
+}
+
+.LoginOut{
+  display: flex;
+  justify-content:
+   flex-end;
+    padding-right:70px;
+   margin-top: 10px;
+}
 
 .pagination {
   
@@ -1881,7 +1916,7 @@ h1, h2, h3, h4, h5,
   font-size: 14px;
   text-decoration: none;
   padding: 5px 12px;
-  color: #fff;
+  color: black;
   margin-left: -1px;
   border: 1px solid transparent;
   line-height: 1.5;
@@ -1903,8 +1938,10 @@ h1, h2, h3, h4, h5,
   border-radius: 100%;
 }
 .modal-3 a:hover {
-  background-color: #4DAD16;
+  background-color: #00d2b5;
+  color: white;
 }
 .modal-3 a.active, .modal-3 a:active {
-  background-color: #37B247;
+  background-color: #00d2b5;
+  color: white;
 }
